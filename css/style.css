@@ -120,13 +120,148 @@ h2{
 p{
     color: black;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    font-weight:400;
+    line-height:24px ;
     letter-spacing: 0.1px;
     margin-top: 16px;
 }
 
 
+/* section3 */
+.section3{
+    background-color: black;
+
+}
+.big-div{
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 96px 0px;
+    display: flex;
+    align-items: center;
+    gap: 64px 133px;
+
+}
+.left-div{
+    width:503.5px;
+    height:428px;
+    border-radius:12px;
+    padding:10px;
+    gap:10px;
+}
+.left-div img{
+    width:100%;
+}
+.right-div{
+    width:503.5px;
+}
+.right-div h4{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    line-height: 32px;
+
+}
+
+.right-div p{
+    width:445px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color:#FFFFFF;
+   
+    letter-spacing: 0.1px;
+    line-height: 24px;
+
+    
+}
+.right-p{
+    width:503.5px;
+    height:48px;
+    
+   
+}
+.right-p2{
+    width:429px;
+    height:24px;
+}
+.section4{
+    background-image: url(../images/background.jpg);
+    height: 564px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center; 
+}
+.tagline{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin:0 auto;
+}
+.text{
+    width: 540px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin: 0 auto;
+}
+.img{
+    width: 100px;
+    margin: auto;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    padding: 96px 0px;
+}
+.last-div{
+    max-width: 1140px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.li-h{
+    width: 228px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 16px;
+}
+.li-p{
+    width: 228px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+.li-p-last{
+    margin-top: 24px;
+    width: 228px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 40%;
+}
+ 
 
 
