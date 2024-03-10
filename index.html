@@ -6,13 +6,14 @@
     <title>lesson10</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <header class="header">
         <a href="index.html" alt="#"></a>
             <img src="images/Logo (Black).svg" alt="logo">
-        <nav>
+        <nav class="navigation">
             <ul class="ul">
                 <li><a class="nav-text" href="#">Link 1</a></li>
                 <li><a class="nav-text" href="#">Link 2</a></li>
@@ -21,12 +22,11 @@
                 <li><a class="nav-text" href="#">Link 5</a></li>
             </ul>
         </nav>
-          <div class="menu-icon">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-        <div>
+         
+        <div class="action">
             <img src="images/action1.png" alt="">
         </div>
+        <div class="burger"></div>
     </header>
     
         <!-- section 1 -->
@@ -39,9 +39,17 @@
                 <p>5,000 people like you have purchased this product!</p>
             </div>
             </div>
-            <div class="div-right">
-                <img src="images/img1.png">
+            <div class="photos">
+              <picture>
+                <source media="(min-width:1024px)" src="images/img5.png">
+                <source  media="(min-width:744px)" src='images/img3.png'>
+                <source media="(min-width:375px)" src="images/img4.png">
+                <img  src="images/img1.png" style="width: 100%">
+              </picture>
             </div>
+            <!-- <div class="div-right">
+                <img src="images/img1.png">
+            </div> -->
         </section>
         <!-- section2 -->
         <section class="section2">
@@ -78,6 +86,7 @@
         
         <!-- section3 -->
         <section class="section3">
+         
           <div class="big-div">
             <div class="left-div">
               <img src="images/img2.png" alt="">
@@ -100,6 +109,14 @@
 
         <!-- section4 -->
         <section class="section4">
+          <div>
+            <picture>
+              <source media="(min-width:1024px)"  src="images/img2.1.png">
+              <source  media="(min-width:744px)" src="images/img2.2.png">
+              <source  media="(min-width:375px)" src="images/img2.3.png">
+              <source >
+            </picture>
+          </div>
          <p class="tagline">Tagline</p>
          <p class="text">Long headline to turn your visitors into users</p>
          <div class="img">
@@ -114,7 +131,7 @@
             <div class="footer-logo">
               <img src="images/footer logo.svg">
             </div>
-            <div>
+            <div class="li">
               <ul>
                 <li class="li-h">First column</li>
                 <li class="li-p">First page</li>

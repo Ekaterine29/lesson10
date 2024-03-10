@@ -12,9 +12,13 @@
    left: 0;
    background-color: white;
 }
-.menu-icon{
+.burger {
+    background-color: #000000;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
     display: none;
-}
+  }
 .ul{
     display: flex;
     width: 328px;
@@ -188,6 +192,9 @@ p{
     width:429px;
     height:24px;
 }
+
+/* section 4 */
+
 .section4{
     background-image: url(../images/background.jpg);
     height: 564px;
@@ -195,6 +202,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center; 
+    
 }
 .tagline{
     font-family: 'Inter', sans-serif;
@@ -205,6 +213,7 @@ p{
     letter-spacing: 0.1px;
     text-align: center;
     margin:0 auto;
+    padding: 192px 0px;
 }
 .text{
     width: 540px;
@@ -215,7 +224,8 @@ p{
     line-height: 48px;
     letter-spacing: -0.5px;
     text-align: center;
-    margin: 0 auto;
+    margin:0 auto;
+    
 }
 .img{
     width: 100px;
